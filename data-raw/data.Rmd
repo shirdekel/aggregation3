@@ -75,6 +75,8 @@ data <-
     test = FALSE,
     prolific_filter = NULL,
     prolific_filter_label = NULL
-  )
+  ) %>%
+  ## Remove non-essential information
+  select(-c(contact, address, prolific, company_name))
 ```
 
