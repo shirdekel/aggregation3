@@ -2,3 +2,4 @@
 ^inst/extdata/Logfiles$
 ^renv$
 ^renv\.lock$
+^LICENSE\.md$
